@@ -1,0 +1,74 @@
+body, h1, form {
+    margin: 20;
+    padding: 0;
+}
+
+/* Center the form */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    background-color: #16419fd6;
+}
+
+/* Style the login box container */
+.login-box {
+    background-color:rgb(243, 151, 151);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(216, 105, 105, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Style the login heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-decoration:lightcoral;
+}
+
+/* Style form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style labels */
+label {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="password"] {
+    width: 15pc;
+    padding: 12px;
+    border: 1px solid #120303;
+}
+
+/* Style submit button */
+.Submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Submit input[type="submit"],
+.Submit input[type="reset"] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 10px;
+    border-radius: 5px;
+}
+
+.Submit input[type="submit"] {
+    background-color: #4ffa77;
+    color: #1e1b1b;
+}
+
+.Submit input[type="reset"] {
+    background-color: #d5390d;
+    color: #0e0d0d;
+}

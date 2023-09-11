@@ -1,0 +1,61 @@
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+body {
+    justify-content: left;
+    align-items: left;
+    height: 110vh;
+    background-color: #ffffffd6;
+    text-align:left;
+  padding: 5px;
+  height: 450px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Submit{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.Submit input[type="submit"],.Submit input[type="reset"],.Submit input[type="button"]{
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5s ease;
+}
+
+.Submit input[type="submit"] {
+    background-color: #4ffa77;
+    color: #0c0b0b;
+}
+.Submit input[type="reset"] {
+    background-color: #7659f9;
+    color: #0a0909;
+
+}
+.Submit input[type="button"] {
+    background-color: #b844b8;
+    color: #e8e3e3;
+
+}
+.button {
+    background-color: #4bea50; /* Green */
+    
+    padding: 15px 30px;
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 10px;
+  }
+
+.form-group{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-size: medium;
+}
+
